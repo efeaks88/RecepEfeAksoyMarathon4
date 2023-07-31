@@ -1,0 +1,10 @@
+/**
+ * Sub build.gradle
+ */
+
+dependencies {
+    implementation libs.springBootDataJpa
+    implementation libs.postgresql
+    implementation libs.springBootAmqp
+    implementation libs.springBootDataRedis
+}
